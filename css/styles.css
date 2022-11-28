@@ -73,6 +73,8 @@ span {
 .link:hover,
 .link:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-mail-header {
@@ -84,6 +86,8 @@ span {
 .header-mail:hover .icon-mail-header,
 .header-mail:focus .icon-mail-header {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail {
@@ -127,6 +131,8 @@ span {
 .header-tel:hover .icon-tel-header,
 .header-tel:focus .icon-tel-header {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link {
@@ -186,6 +192,8 @@ span {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: white;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn {
@@ -210,6 +218,8 @@ span {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: white;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -306,11 +316,15 @@ footer {
 .ourteam-soc-link:hover,
 .ourteam-soc-link:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-soc-link:hover .ourteam-icon,
 .ourteam-soc-link:focus .ourteam-icon {
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-icon {
@@ -324,7 +338,6 @@ footer {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   padding-bottom: 30px;
-  /* padding-top: 30px; */
   border-top: initial;
 }
 
@@ -350,6 +363,8 @@ footer {
 .grid__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product__name {
@@ -489,11 +504,15 @@ footer {
 .clientage-link:hover,
 .clientage-link:focus {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clientage-items:hover,
 .clientage-items:focus {
   border-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo {
@@ -561,6 +580,8 @@ footer {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-list-title {
@@ -569,7 +590,6 @@ footer {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
