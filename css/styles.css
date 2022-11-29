@@ -672,7 +672,7 @@ footer {
 }
 
 .box:hover .overlay {
-  transform: translatey(0);
+  transform: translateY(0);
 }
 
 .overlay {
@@ -682,7 +682,7 @@ footer {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  transform: translatey(100%);
+  transform: translateY(100%);
   transition: transform 250ms ease;
 }
 
