@@ -48,7 +48,7 @@
     <section class="hero">
       <div class="container">
         <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <button data-modal-open type="button" class="button">Замовити послугу</button>
       </div>
     </section>
 
@@ -301,9 +301,9 @@
     </section>
   </main>
 
-  <div class="backdrop is-hidden">
+  <div class="backdrop is-hidden data-modal">
     <div class="modal">
-      <button></button>
+      <button data-modal-close type="button">x</button>
     </div>
   </div>
 
@@ -351,6 +351,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
