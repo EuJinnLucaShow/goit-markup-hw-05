@@ -712,3 +712,16 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
+.btn-modal {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #afb1b8;
+  background-image: url(../images/close-black-18dp.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
