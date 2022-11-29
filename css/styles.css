@@ -136,11 +136,30 @@ span {
 }
 
 .header-link {
+  position: relative;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.item {
+  /* position: relative; */
+  display: block;
+}
+
+.linestudio::after {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
 }
 
 .header-list > li:not(:last-child) {
