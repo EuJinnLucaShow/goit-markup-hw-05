@@ -411,9 +411,9 @@ footer {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-/* .grid__item {
+.grid__item {
   display: block;
-} */
+}
 
 .grid__item:hover,
 .grid__item:focus {
@@ -671,8 +671,11 @@ footer {
   overflow: hidden;
 }
 
-.box:hover .overlay {
+.box:hover .overlay,
+.box:focus .overlay {
   transform: translateY(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay {
