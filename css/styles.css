@@ -723,7 +723,5 @@ footer {
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid #afb1b8;
-  background-image: url(../images/close-black-18dp.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #fff;
 }
